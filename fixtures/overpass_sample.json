@@ -1,0 +1,74 @@
+{
+ "version": 0.6,
+ "generator": "selftest-fixture",
+ "_comment": "Элементы 1018017619, 1018106144, 1348002880, 1352424879, 1352424885 — реальные данные OSM (Казань, парикмахерские без сайта, снимок 2026-11-17 через зеркало mail.ru). Элементы 900000001 и 900000002 — синтетические, добавлены чтобы selftest покрыл скоринг ниш health/auto.",
+ "elements": [
+  {
+   "type": "node", "id": 1018017619, "lat": 55.7511975, "lon": 49.2079782,
+   "tags": {
+    "_fixture_niche": "beauty",
+    "name": "Flow",
+    "contact:phone": "+7 843 2536263",
+    "opening_hours": "Mo-Sa 09:00-20:00; Su 09:00-19:00",
+    "addr:street": "ул. Петербургская", "addr:housenumber": "50",
+    "shop": "hairdresser"
+   }
+  },
+  {
+   "type": "node", "id": 1018106144, "lat": 55.7551885, "lon": 49.1895031,
+   "tags": {
+    "_fixture_niche": "beauty",
+    "name": "Лавена",
+    "operator": "ООО \"Лавена\"",
+    "opening_hours": "Mo-Sa 08:00-20:00; Su 09:00-16:00",
+    "shop": "hairdresser"
+   }
+  },
+  {
+   "type": "node", "id": 1348002880, "lat": 55.7883562, "lon": 49.1567888,
+   "tags": {"_fixture_niche": "beauty", "name": "Справедливая цена", "shop": "hairdresser"}
+  },
+  {
+   "type": "node", "id": 1352424879, "lat": 55.8322809, "lon": 49.0786664,
+   "tags": {
+    "_fixture_niche": "beauty",
+    "name": "Луиза",
+    "operator": "ИП Гаптелхакова Р. Р.",
+    "opening_hours": "Mo-Sa 09:00-20:00",
+    "shop": "hairdresser"
+   }
+  },
+  {
+   "type": "node", "id": 1352424885, "lat": 55.8250635, "lon": 49.0854519,
+   "tags": {
+    "_fixture_niche": "beauty",
+    "name": "Алтынчеч",
+    "contact:phone": "+7 987 0001122",
+    "contact:vk": "https://vk.com/altynchech",
+    "opening_hours": "Mo-Fr 09:00-19:00; Sa-Su 10:00-18:00",
+    "shop": "hairdresser"
+   }
+  },
+  {
+   "type": "node", "id": 900000001, "lat": 55.79, "lon": 49.13,
+   "tags": {
+    "_fixture_niche": "health",
+    "name": "Дентал-Плюс (синтетический)",
+    "phone": "+7 843 210-33-44",
+    "opening_hours": "Mo-Fr 08:00-20:00",
+    "addr:street": "ул. Баумана", "addr:housenumber": "10",
+    "amenity": "dentist"
+   }
+  },
+  {
+   "type": "node", "id": 900000002, "lat": 55.82, "lon": 49.10,
+   "tags": {
+    "_fixture_niche": "auto",
+    "name": "АвтоМастер (синтетический)",
+    "contact:phone": "8-987-654-32-10",
+    "contact:whatsapp": "+7 987 654 32 10",
+    "shop": "car_repair"
+   }
+  }
+ ]
+}
